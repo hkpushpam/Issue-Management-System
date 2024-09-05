@@ -1,0 +1,52 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 600;
+}
+
+.box {
+    max-height: 444px;
+}
+
+.box {
+    box-shadow: 0px 1px 22px -12px #607D8B;
+    background-color: #fff;
+    padding: 25px 35px 25px 30px;
+}
+
+.chart-title h5 {
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 38px;
+}
+
+
+@media screen and (max-width:760px) {
+    .box {
+        padding: 25px 0;
+    }
+}
+
+.sparkboxes .box {
+    padding: 3px 0 0 0;
+    position: relative;
+}
+
+#spark1,
+#spark2,
+#spark3,
+#spark4 {
+    position: relative;
+    padding-top: 15px;
+}
+
+
+/* overrides */
+.sparkboxes #apexcharts-subtitle-text {
+    fill: #8799a2 !important;
+}

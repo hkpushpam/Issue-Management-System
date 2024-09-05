@@ -1,0 +1,44 @@
+
+.apexcharts-title-text
+{
+    padding-left: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 800;
+}
+
+.apexcharts-subtitle-text
+{
+    padding-left: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+@media (min-width: 768px)
+{
+    .apexcharts-subtitle-text
+    {
+        font-size: 0.90rem;
+        font-weight: 500;
+    }
+    .apexcharts-title-text
+    {
+        font-size: 1.125rem;
+        font-weight:500;
+    }
+}
+
+@media (min-width: 900px)
+{
+    .apexcharts-subtitle-text
+    {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .apexcharts-title-text
+    {
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+}
